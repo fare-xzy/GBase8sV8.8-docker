@@ -16,6 +16,13 @@ license，一年有效期
 docker build -t gbase:8sV8.8 ./
 ```
 
+### 导出镜像
+
+```shell
+docker save -o images.tar gbase:8sV8.8
+
+```
+
 ### 导入镜像
 
 ```shell
